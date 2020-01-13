@@ -86,7 +86,7 @@ a:focus {
   -webkit-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
-  text-decoration: none;
+  /* text-decoration: none; */
 
   color: #fff;
 }
@@ -323,6 +323,9 @@ button {
   border: 3px solid #fff;
   border-radius: 100%;
 }
+#intro .container-mid a .circle:hover {
+  background: black;
+}
 
 #intro .container-mid a .circle i {
   position: absolute;
@@ -344,9 +347,9 @@ button {
 #intro .container-mid a:hover .circle i:first-child {
   top: 50%;
 
-  -webkit-transition: 0.15s ease;
+  /* -webkit-transition: 0.15s ease;
   -o-transition: 0.15s ease;
-  transition: 0.15s ease;
+  transition: 0.15s ease; */
 }
 
 #intro .container-mid a .circle i:last-child {
@@ -356,9 +359,9 @@ button {
 #intro .container-mid a:hover .circle i:last-child {
   top: 150%;
 
-  -webkit-transition: 0.15s ease;
+  /* -webkit-transition: 0.15s ease;
   -o-transition: 0.15s ease;
-  transition: 0.15s ease;
+  transition: 0.15s ease; */
 }
 
 #intro .animation-container {
@@ -900,15 +903,15 @@ button {
 }
 
 #contact #contact-form button .circle i:last-child {
-  -webkit-transform: translate(0, -50%);
+  /* -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
+  transform: translate(0, -50%); */
 }
 
 #contact #contact-form button:hover .circle i:last-child {
-  -webkit-transition: 0.15s ease;
+  /* -webkit-transition: 0.15s ease;
   -o-transition: 0.15s ease;
-  transition: 0.15s ease;
+  transition: 0.15s ease; */
   -webkit-transform: translate(100%, -50%);
   -ms-transform: translate(100%, -50%);
   transform: translate(100%, -50%);
@@ -990,6 +993,14 @@ button {
   background: none;
 }
 
+#footer .social-icons :first-child a:hover {
+  background: black;
+}
+
+#footer .social-icons :last-child a:hover {
+  background: #0072b1;
+}
+
 #footer .social-icons li a i {
   position: absolute;
   top: 50%;
@@ -1009,10 +1020,10 @@ button {
 
 #footer .social-icons li a:hover i:first-child {
   top: 50%;
-
-  -webkit-transition: 0.15s ease;
-  -o-transition: 0.15s ease;
-  transition: 0.15s ease;
+  /* background-color: red; */
+  /* -webkit-transition: 0.15s ease; */
+  /* -o-transition: 0.15s ease; */
+  /* transition: 0.15s ease; */
 }
 
 #footer .social-icons li a i:last-child {
@@ -1021,10 +1032,10 @@ button {
 
 #footer .social-icons li a:hover i:last-child {
   top: 150%;
-
-  -webkit-transition: 0.15s ease;
+  /* background-color: red; */
+  /* -webkit-transition: 0.15s ease;
   -o-transition: 0.15s ease;
-  transition: 0.15s ease;
+  transition: 0.15s ease; */
 }
 
 #footer p {
